@@ -1,0 +1,25 @@
+{
+  "name": "pseudo-translate-file",
+  "version": "0.0.1",
+  "description": "Pseudo Translation Tool",
+  "homepage": "https://github.com/holger-koenig/pseudo-translate-file",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "pseudo-translate-file": "src/index.js"
+  },
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "author": "Holger König",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {}
+}
