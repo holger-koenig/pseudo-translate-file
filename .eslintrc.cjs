@@ -13,4 +13,14 @@ module.exports = {
   rules: {
     'import/extensions': [2, 'always'],
   },
+  overrides: [
+    {
+      files: [
+        '**/*.test.js',
+      ],
+      env: {
+        jest: true,
+      },
+    },
+  ],
 };
