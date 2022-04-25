@@ -1,4 +1,4 @@
-import processChar from './char.js';
+import processChar from './char';
 
 describe('Test character expansion', () => {
   test('Changes chars from asci>=33 to <127', () => {

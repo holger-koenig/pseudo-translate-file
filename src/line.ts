@@ -1,6 +1,6 @@
 import processChar from './char.js';
 
-const getMaxGrow = (length) => {
+const getMaxGrow = (length: number) => {
   if (length < 11) return 2.5;
   if (length < 21) return 1.9;
   if (length < 31) return 1.7;
@@ -9,7 +9,7 @@ const getMaxGrow = (length) => {
   return 1.3;
 };
 
-const processLine = (inValue) => {
+const processLine = (inValue: string) => {
   const chars = [...inValue];
   const cLength = chars.length;
   const maxGrow = getMaxGrow(cLength);
