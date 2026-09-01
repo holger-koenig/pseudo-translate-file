@@ -17,11 +17,11 @@
   "author": "Holger König",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "29.5.14",
+    "@types/jest": "30.0.0",
     "eslint": "8.57.1",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.31.0",
-    "jest": "29.7.0",
+    "jest": "30.5.1",
     "prettier": "3.4.1",
     "ts-jest": "29.2.5",
     "typescript": "5.7.2"
